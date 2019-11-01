@@ -1,5 +1,5 @@
-title = "johndoe"
-baseurl = "http://www.example.com"
+title = "Zach Browne"
+baseurl = "https://browne.io"
 languagecode = "en"
 defaultcontentlanguage = "en"
 theme = "hugo-coder"
@@ -8,57 +8,55 @@ canonifyurls = true
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "zachbrowne"
 
 [params]
-author = "John Doe"
-description = "John Doe's personal website"
-keywords = "blog,developer,personal"
-info = "Full Stack DevOps and Magician"
+author = "Zach Browne"
 avatarurl = "images/avatar.jpg"
-footercontent = "Enter a text here."
+commit = "https://github.com/zachbrowne/hugo-coder/tree/"
+custom_css = []
+custom_js = []
 dateformat = "January 2, 2006"
-hideCredits = false
+description = "Zach Browne's personal website"
+footercontent = "Let's work together."
 hideCopyright = false
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
-rtl = false
+hideCredits = false
+info = "Experienced SEO & Developer"
 inverted = false
+keywords = "seo,developer,personal"
 maxSeeAlsoItems = 5
-custom_css = [ ]
-custom_js = [ ]
+rtl = false
 
-  [[params.social]]
-  name = "Github"
-  icon = "fab fa-github"
-  weight = 1
-  url = "https://github.com/johndoe/"
+[[params.social]]
+icon = "fab fa-github"
+name = "Github"
+url = "https://github.com/zachbrowne/"
+weight = 1
 
-  [[params.social]]
-  name = "Gitlab"
-  icon = "fab fa-gitlab"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+[[params.social]]
+icon = "fab fa-gitlab"
+name = "Gitlab"
+url = "https://gitlab.com/zachbrowne/"
+weight = 2
 
-  [[params.social]]
-  name = "Twitter"
-  icon = "fab fa-twitter"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+[[params.social]]
+icon = "fab fa-twitter"
+name = "Twitter"
+url = "https://twitter.com/zachbrowne/"
+weight = 3
 
-  [[params.social]]
-  name = "LinkedIn"
-  icon = "fab fa-linkedin"
-  weight = 4
-  url = "https://www.linkedin.com/in/johndoe/"
+[[params.social]]
+icon = "fab fa-linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/zachbrowne/"
+weight = 4
 
-  [[params.social]]
-  name = "Medium"
-  icon = "fab fa-medium"
-  weight = 5
-  url = "https://medium.com/@johndoe"
+[languages]
 
 [languages.en]
 languagename = "English"
+
+[languages.en.menu]
 
 [[languages.en.menu.main]]
 name = "About"
@@ -76,7 +74,7 @@ url = "projects/"
 weight = 3
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Contact"
 url = "contact/"
 weight = 5
 
@@ -84,12 +82,7 @@ weight = 5
 languagename = "Português"
 title = "João Ninguém"
 
-  [languages.pt-br.params]
-  author = "João Ninguém"
-  info = "Full Stack DevOps e Mágico"
-  description = "Sítio pessoal de João Ninguém"
-  keywords = "blog,desenvolvedor,pessoal"
-  footercontent = "Coloque algum texto aqui."
+[languages.pt-br.menu]
 
 [[languages.pt-br.menu.main]]
 name = "Sobre"
@@ -110,6 +103,13 @@ weight = 3
 name = "Contato"
 url = "contact/"
 weight = 5
+
+[languages.pt-br.params]
+author = "João Ninguém"
+description = "Sítio pessoal de João Ninguém"
+footercontent = "Coloque algum texto aqui."
+info = "Full Stack DevOps e Mágico"
+keywords = "blog,desenvolvedor,pessoal"
 
 [taxonomies]
 category = "categories"
